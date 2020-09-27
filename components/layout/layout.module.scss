@@ -1,0 +1,12 @@
+.layoutStyle {
+  display: "flex";
+  flex-direction: column;
+  height: "100%";
+  width: "100%";
+}
+
+.contentStyle {
+  flex: 1;
+  display: "flex";
+  flex-direction: "column";
+}
