@@ -4,7 +4,7 @@ import { MdFingerprint } from "react-icons/md";
 import { FaBars, FaTimes } from "react-icons/fa";
 import styles from "./navbar.module.scss";
 
-function NavBar() {
+export default function NavBar() {
   const [click, setClick] = useState(false);
 
   const handleClick = () => setClick(!click);
@@ -44,5 +44,3 @@ function NavBar() {
     </>
   );
 }
-
-export default NavBar;
